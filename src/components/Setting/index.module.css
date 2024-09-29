@@ -1,0 +1,15 @@
+.icon {
+    gap: 10px;
+    margin: 20px;
+    position: absolute;
+    top: -10px;
+    left: 20px;
+}
+
+.icon span {
+    margin: 5px;
+}
+
+.maincont {
+    position: absolute;
+}

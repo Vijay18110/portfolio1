@@ -1,0 +1,35 @@
+.toggledivcontainer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: hwb(17 5% 7%);
+
+}
+
+.togglelogo {
+    width: 50%;
+    padding-left: 2rem;
+}
+
+.toggleicon {
+    width: 50%;
+    padding-right: 1rem;
+    text-align: right;
+
+}
+
+.icon {
+    font-size: 3rem;
+    color: white;
+}
+
+.togdiv {
+    display: none;
+}
+
+@media screen and (max-width:767.20px) {
+    .togdiv {
+        display: block;
+    }
+}

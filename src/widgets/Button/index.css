@@ -1,0 +1,21 @@
+.btn.btn-primary {
+    background: #ffbd39;
+    border: 1px solid #ffbd39;
+    color: #000000;
+}
+
+
+.btn.btn-primary:active {
+    border: 3px solid blue;
+}
+
+
+.btn {
+    cursor: pointer;
+    border-radius: 40px;
+    box-shadow: 0px 24px 36px -11px rgba(0, 0, 0, 0.09);
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
